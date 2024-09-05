@@ -1,0 +1,22 @@
+/* Write your code here. */
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.gallery-image {
+  height: 60vh;
+  width: 80vw;
+  background-size: cover;
+}
+
+.tumbnail-container {
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+}
